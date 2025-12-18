@@ -20,14 +20,14 @@ namespace _02_CRUD.Vistas.Dashboad
         private void notasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var frmNotas = new frmNotas();
-          
-            frmNotas.Show(); 
+
+            frmNotas.Show();
         }
 
         private void estudiantesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var frmEstudiantes = new frmEstudiantes();
-          
+
             frmEstudiantes.Show();
 
         }
@@ -35,9 +35,15 @@ namespace _02_CRUD.Vistas.Dashboad
         private void materiasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var frmMaterias = new frmMaterias();
-       
+
             frmMaterias.Show();
 
+        }
+
+        private void reporteNotasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frmReporteNotas = new frmReporteNotas();
+            frmReporteNotas.Show();
         }
     }
 }

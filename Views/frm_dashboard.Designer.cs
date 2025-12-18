@@ -62,6 +62,7 @@
             notasToolStripMenuItem = new ToolStripMenuItem();
             estudiantesToolStripMenuItem = new ToolStripMenuItem();
             materiasToolStripMenuItem = new ToolStripMenuItem();
+            reporteNotasToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -267,7 +268,7 @@
             // 
             // escuelaToolStripMenuItem
             // 
-            escuelaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { notasToolStripMenuItem, estudiantesToolStripMenuItem, materiasToolStripMenuItem });
+            escuelaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { notasToolStripMenuItem, estudiantesToolStripMenuItem, materiasToolStripMenuItem, reporteNotasToolStripMenuItem });
             escuelaToolStripMenuItem.Name = "escuelaToolStripMenuItem";
             escuelaToolStripMenuItem.Size = new Size(72, 24);
             escuelaToolStripMenuItem.Text = "Escuela";
@@ -292,6 +293,13 @@
             materiasToolStripMenuItem.Size = new Size(224, 26);
             materiasToolStripMenuItem.Text = "Materias";
             materiasToolStripMenuItem.Click += materiasToolStripMenuItem_Click;
+            // 
+            // reporteNotasToolStripMenuItem
+            // 
+            reporteNotasToolStripMenuItem.Name = "reporteNotasToolStripMenuItem";
+            reporteNotasToolStripMenuItem.Size = new Size(224, 26);
+            reporteNotasToolStripMenuItem.Text = "Reporte Notas";
+            reporteNotasToolStripMenuItem.Click += reporteNotasToolStripMenuItem_Click;
             // 
             // frm_dashboard
             // 
@@ -346,5 +354,6 @@
         private ToolStripMenuItem notasToolStripMenuItem;
         private ToolStripMenuItem estudiantesToolStripMenuItem;
         private ToolStripMenuItem materiasToolStripMenuItem;
+        private ToolStripMenuItem reporteNotasToolStripMenuItem;
     }
 }
